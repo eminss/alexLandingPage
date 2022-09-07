@@ -50,3 +50,31 @@ transition: all 250ms ease-in-out;
     color: #97DFFC;
     font-size: 2.1rem;
 }
+
+.logoContainer {
+    display: flex;
+    font-size: 45px;
+    padding: 25px;
+}
+
+.logoContainer img {
+    width: 300px;
+    height: 300px;
+}
+
+.logoText {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoText h1 {
+    font-size: 50px;
+}
+
+.logoText h4 {
+    font-size: 25px;
+}
