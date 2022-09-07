@@ -17,11 +17,12 @@ li {
 
 nav {
     display: flex;
-    height: 80px;
+    height: 40px;
     background-color: #4E148C;
     justify-content: end;
     padding: .4em .8em;
     align-items: center;
+    
 }
 
 .container {
@@ -39,14 +40,12 @@ nav {
 .nav__link {
 color: whitesmoke;
 text-decoration: none;
-font-size: 2rem;
-padding: 0 2em;
-font-weight: bold;
+font-size: 24px;
+padding: 0 28px;
 letter-spacing: 1px;
-transition: all 250ms ease-in-out;
+transition: all 100ms ease-in-out;
 }
 
 .nav__link:hover {
     color: #97DFFC;
-    font-size: 2.1rem;
 }
