@@ -17,12 +17,11 @@ li {
 
 nav {
     display: flex;
-    height: 40px;
+    height: 20px;
     background-color: #4E148C;
-    justify-content: end;
+    justify-content: center;
     padding: .4em .8em;
     align-items: center;
-    
 }
 
 .container {
@@ -34,17 +33,16 @@ nav {
     justify-content: space-between;
     text-decoration: none;
     list-style: none;
-    width: 320px;
-
+    width: 200px;
+    padding-top: 5px;
 }
 
 .nav__link {
-color: whitesmoke;
-text-decoration: none;
-font-size: 24px;
-letter-spacing: 1px;
+color: rgb(27, 25, 25);
+font-size: 18px;
 transition: all 100ms ease-in-out;
-position: relative;
+padding: 0;
+margin: 0;
 }
 
 .nav__link:hover {
@@ -78,18 +76,4 @@ color: #97DFFC;
 .logoText h4 {
     font-size: 25px;
 
-}
-.nav__link::after {
-    content: "";
-    background-color: #97DFFC;
-    position: absolute;
-    height: 3px;
-    width: 0;
-    left: 0;
-    bottom: -2px;
-    transition: 300ms  ;
-}
-
-.nav__link:hover::after {
-    width: 100%;
 }

@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "../Tip Calculator exercise"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "alexLandingPage"
+  }
+}
